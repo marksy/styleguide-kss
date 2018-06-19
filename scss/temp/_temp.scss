@@ -1,0 +1,18 @@
+// Title:
+//
+// Large, **in charge**, and centered. (this is the description of your component. you can use markdown in here.)
+//
+// Markup:
+// <h1 class="title">Title</h1>
+// <h1 class="title alt">Title</h1>
+//
+// Styleguide: Components.article.title
+
+.title {
+    font-size: 3em;
+    text-align: left;
+    font-family: fantasy;
+    &.alt {
+      color: blue;
+    }
+}
